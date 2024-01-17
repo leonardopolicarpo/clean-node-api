@@ -5,6 +5,7 @@ const config: Config = {
   collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
   collectCoverage: true,
   coverageDirectory: 'coverage',
+  coverageReporters: [],
   testEnvironment: 'node',
   transform: {
     '.+\\.ts$': 'ts-jest'
